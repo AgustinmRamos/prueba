@@ -1,0 +1,37 @@
+<head>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <h1>Mi Calculadora JS</h1>
+
+    <div id="calculator" class="calculator">
+
+        <button onclick ="calculadora.resetear()" id="clear" class="clear">C</button>
+
+        <div id="viewer" class="viewer">0</div>
+
+        <button onclick = "calculadora.agregarNumero('7')" class="numero" data-numero="7">7</button>
+        <button onclick = "calculadora.agregarNumero('8')" class="numero" data-numero="8">8</button>
+        <button onclick = "calculadora.agregarNumero('9')" class="numero" data-numero="9">9</button>
+        <button onclick = "calculadora.agregarOperador('+')" class="ops">+</button>
+
+        <button onclick = "calculadora.agregarNumero('4')"class="numero" data-numero="4">4</button>
+        <button onclick = "calculadora.agregarNumero('5')"class="numero" data-numero="5">5</button>
+        <button onclick = "calculadora.agregarNumero('6')"class="numero" data-numero="6">6</button>
+        <button onclick = "calculadora.agregarOperador('-')" class="ops">-</button>
+
+        <button onclick = "calculadora.agregarNumero('1')"class="numero" data-numero="1">1</button>
+        <button onclick = "calculadora.agregarNumero('2')"class="numero" data-numero="2">2</button>
+        <button onclick = "calculadora.agregarNumero('3')"class="numero" data-numero="3">3</button>
+        <button onclick = "calculadora.agregarOperador('*')" class="ops">*</button>
+
+        <button onclick = "calculadora.agregarNumero('0')"class="numero" data-numero="0">0</button>
+        <button onclick = "calculadora.agregarNumero('.')"class="numero" data-numero=".">.</button>
+        <button onclick = "calculadora.calcular(true)" id="equals" class="equals">=</button>
+        <button onclick = "calculadora.agregarOperador('/')" class="ops">/</button>
+        
+        
+
+    </div> 
+</body>
+        <script src="calculadora.js"></script>
